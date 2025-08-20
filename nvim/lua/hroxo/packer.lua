@@ -35,4 +35,13 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
   use 'saadparwaiz1/cmp_luasnip'
 
+  use {
+	  'nvim-lualine/lualine.nvim',
+	  requires = { 'nvim-tree/nvim-web-devicons', opt = true },
+	  config = function()
+		  require('lualine').setup {
+			  options = { theme = 'cappuccino' }
+		  }
+	  end}
+
 end)
