@@ -1,2 +1,2 @@
 require("hroxo")
-print("Hello")
+print("One more day at the Office boss")
