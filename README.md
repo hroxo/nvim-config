@@ -40,6 +40,19 @@ My personal **Neovim configuration** powered by `packer.nvim`.
 
 ---
 
+## 🔑 Hotkeys
+
+My Neovim configuration uses **Space (`<Space>`)** as the `<leader>` key.  
+Here are the main shortcuts:
+
+- `<leader> + s` → Open **Telescope**
+- `<leader> + n` → Toggle **Norminette Checker** (activate/deactivate)
+- `<leader> + u` → Open **Undotree**
+- `<leader> + e` → Open **Vim file explorer** (`:Ex`)
+- `<leader> + t` → Open **Telescope**
+
+---
+
 ## 🎉 Done!
 
 Your Neovim should now be ready with all plugins and settings.
