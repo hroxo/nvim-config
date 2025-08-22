@@ -17,7 +17,7 @@ My personal **Neovim configuration** powered by `packer.nvim`.
    Copy the `nvim` folder into your `~/.config/` directory:
 
    ```bash
-   cp -r nvim ~/.config/
+   cp -rf nvim ~/.config/
    ```
 
 ---
