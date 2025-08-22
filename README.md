@@ -49,7 +49,6 @@ Here are the main shortcuts:
 - `<leader> + n` → Toggle **Norminette Checker** (activate/deactivate)
 - `<leader> + u` → Open **Undotree**
 - `<leader> + e` → Open **Vim file explorer** (`:Ex`)
-- `<leader> + t` → Open **Telescope**
 
 ---
 
