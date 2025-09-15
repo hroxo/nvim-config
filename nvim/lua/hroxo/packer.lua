@@ -40,5 +40,16 @@ return require('packer').startup(function(use)
 			  options = { theme = 'gruvbox_dark' }
 		  }
 	  end}
-
+  use {
+	  "MrSloth-dev/42-NorminetteNvim",
+	  requires = { "nvim-lua/plenary.nvim", "echasnovski/mini.icons" },
+	  config = function()
+		  require("norminette").setup({
+			  norm_keybind = "<leader>n",
+			  size_keybind = "<leader>ns",
+			  show_size = true,
+			  prefix = "✗",
+		  })
+    end}
+    use '42paris/42header'
 end)
